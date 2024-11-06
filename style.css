@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+img {
+    width: 10rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.content {
+    width: 70%;
+    display: flex;
+    gap: 1rem;
+}
+
+.first_div {
+    background-color: #faeee2;
+    flex: 1;
+    font-size: 2rem;
+
+    h3 {
+        font-size: x-large;
+    }
+
+    span {
+        color: #fecc68;
+    }
+
+    img {
+        margin: 2rem 0 0 0;
+    }
+}
+
+.second_div {
+    background-color: #fecc68;
+    flex: 1;
+
+    h3 {
+        font-size: xx-large;
+    }
+}
+
+.third_div {
+    background-color: #7651dc;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-size: xxx-large;
+        text-align: center;
+    }
+
+    span {
+        color: #fecc68;
+    }
+
+    img {
+        margin: .7rem 0 .3rem 0;
+    }
+}
+
+.fourth_div {
+    background-color: #fff;
+    flex: 1;
+
+    h4 {
+        font-size: x-large;
+    }
+}
+
+.fifth_div {
+    background-color: #fecc68;
+    flex: 1;
+
+    h4 {
+        font-size: x-large;
+    }
+}
+
+.sixth_div {
+    background-color: #fff;
+    flex: 1;
+
+    span {
+        font-size: xxx-large;
+    }
+}
+
+.seventh_div {
+    background-color: #7651dc;
+    flex-grow: 2;
+    flex-shrink: 0;
+
+    img {
+        float: left;
+    }
+
+    h3 {
+        font-size: x-large;
+    }
+}
+
+
+.eight_div {
+    background-color: #dcd1fc;
+    flex: 1;
+    height: fit-content;
+
+    h3 {
+        font-size: xx-large;
+    }
+
+    img {
+        height: 15rem;
+    }
+}
+
+
+.third_div,
+.seventh_div {
+    color: #fff;
+}
+
+
+.first-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.second-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-box {
+    display: flex;
+    gap: 1rem;
+}
+
+.third-box {
+    display: flex;
+    gap: 1rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.first_div,
+.second_div,
+.third_div,
+.fourth_div,
+.fifth_div,
+.sixth_div,
+.seventh_div,
+.eight_div {
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+
+    .content {
+        flex-direction: column;
+        display: flex;
+        width: 80%;
+    }
+
+    img{
+        width: 100%;
+    }
+
+   .card-box {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .third-box {
+    display: flex;
+    flex-direction: column;
+   }
+}
